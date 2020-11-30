@@ -1,5 +1,4 @@
-﻿@model IEnumerable<TobiasV_Victor_Lab2.Models.LibraryViewModels.PublisherIndexData>
-
+﻿@model TobiasV_Victor_Lab2.Models.LibraryViewModels.PublisherIndexData
 @{
     ViewData["Title"] = "Publishers";
 }
@@ -49,6 +48,7 @@
             </tr>
         }
     </tbody>
+
 </table>
 @if (Model.Books != null)
 {
@@ -82,6 +82,7 @@
                 </td>
             </tr>
         }
+
     </table>
     @if (Model.Orders != null)
     {
@@ -105,5 +106,6 @@
                 </tr>
             }
         </table>
+        }
+
     }
-}
